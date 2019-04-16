@@ -14,5 +14,6 @@ print sum
 let sum=0, counter;
 for(counter=11; counter<=22; counter+=1){
 	sum+=counter;
+	console.log(counter);
 }
-console.log("the summarize of 11 to 22 is "+ sum);
+alert("the summarize from 11 to 22 is "+sum);
