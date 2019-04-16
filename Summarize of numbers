@@ -3,7 +3,7 @@ Input:
 Sum=0
 Counter=1
 Process:
-For (counter=1; counter<= 22; counter+=1){
+For (counter=11; counter<= 22; counter+=1){
 	Sum+=counter;
 }
 Output:
@@ -12,7 +12,7 @@ print sum
 /***********************************************/
 //JS code
 let sum=0, counter;
-for(counter=1; counter<=22; counter+=1){
+for(counter=11; counter<=22; counter+=1){
 	sum+=counter;
 }
-console.log("the summarize of 1 to 22 is "+ sum);
+console.log("the summarize of 11 to 22 is "+ sum);
