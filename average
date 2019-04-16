@@ -1,15 +1,30 @@
-// The Algorithm:
+// Algorithm:
 (Average of 4 number)
 Input:
 Student1 = Eduardo
 G1=100, g2=80, g3=90, g4=70
 Avg=0
+status
  Process:
 Avg= (g1+g2+g3+g4)/4
+If (avg >=60 )
+	Status=Approved
+Else
+	Status=reproved
 Output:
-Print the average of Eduardo is avg
+Print the average of Eduardo is avg 
+Print status
+
 /************************************************/
-// The JavaScript code
-let g1=100, g2 =80, g3=90, g4=70, avg=0, student1="Eduardo";
-avg= (g1+g2+g3+g4)/4;
-console.log("The average of "+student1+" is: "+avg;
+//JavaScript code
+let g1=100, g2 =80, g3=90, g4=70, student1="Eduardo";
+let status="";
+let avg= (g1+g2+g3+g4)/4;
+if(avg >=60){
+	status= "Approved";
+}
+else{
+	status= "Reproved";
+}
+console.log("The average of "+student1+" is: "+avg);
+console.log("the status of "+student1+ " is "+status);
