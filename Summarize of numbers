@@ -1,0 +1,18 @@
+// Algorithm
+Input:
+Sum=0
+Counter=1
+Process:
+For (counter=1; counter<= 22; counter+=1){
+	Sum+=counter;
+}
+Output:
+The sum of 1 to 22 is sum
+
+/***********************************************/
+//JS code
+let sum=0, counter;
+for(counter=1; counter<=22; counter+=1){
+	sum+=counter;
+}
+console.log("the summarize of 1 to 22 is "+ sum);
