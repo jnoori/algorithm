@@ -1,0 +1,15 @@
+// The Algorithm:
+(Average of 4 number)
+Input:
+Student1 = Eduardo
+G1=100, g2=80, g3=90, g4=70
+Avg=0
+ Process:
+Avg= (g1+g2+g3+g4)/4
+Output:
+Print the average of Eduardo is avg
+/************************************************/
+// The JavaScript code
+let g1=100, g2 =80, g3=90, g4=70, avg=0, student1="Eduardo";
+avg= (g1+g2+g3+g4)/4;
+console.log("The average of "+student1+" is: "+avg;
