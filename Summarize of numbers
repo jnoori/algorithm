@@ -7,7 +7,7 @@ For (counter=1; counter<= 22; counter+=1){
 	Sum+=counter;
 }
 Output:
-The sum of 1 to 22 is sum
+print sum
 
 /***********************************************/
 //JS code
