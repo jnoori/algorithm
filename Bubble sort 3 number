@@ -1,0 +1,19 @@
+// Algorithm bubble sort
+Input:
+x,y,z,temp
+process:
+if(x>y){
+	if(x>z){
+	temp=z	
+	z=x
+	x=temp
+}else{
+		temp=y	
+		y=x
+		x=temp
+}
+}else if(y>z){
+	temp=z	
+	z=y
+	y=temp
+} 
