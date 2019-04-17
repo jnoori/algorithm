@@ -1,0 +1,43 @@
+// add all odd numbers from 1 to 100
+Input:
+Var sum=0
+Var counter
+Process:
+For (counter=1; counter <=100; counter+=2){
+	Sum +=counter;
+}
+Output:
+Print sum
+
+// add even numbers from 1 to 100
+Input:
+Var sum=0
+Var counter
+Process:
+For (counter=2; counter <=100; counter+=2){
+	Sum +=counter;
+}
+Output:
+Print sum
+
+//add all numbers between 2 arbitrary numbers
+Input:
+Var sum=0
+Var counter
+Var x
+Var y
+Process:
+For (counter=x; counter <=y; counter++){
+	Sum +=counter;
+}
+Output:
+Print sum
+
+// Gause method
+Input:
+Var n=100
+Var sum=0
+Process:
+Sum= n*(n+1)/2
+Output:
+Print sum
