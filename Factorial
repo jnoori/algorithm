@@ -1,0 +1,19 @@
+// Algorithm Factorial 
+sum = 1
+number = (user input)
+process
+	sum *= number
+	number -= 1
+If number > 0
+	repeat the process
+Else
+	stop
+Print sum
+
+//JS code
+let sum=1;
+let number =5;
+for(number=5; number>0; number--){
+	sum*=number;
+}
+console.log("the result is "+sum);
