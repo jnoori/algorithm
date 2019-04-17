@@ -6,7 +6,7 @@ if(x>y)
 	swap x and y
 if(y>z)
 	swap y and z
-if(x<y)
+if(x>y)
 	swap x and y
 Output:
 print x y z;
