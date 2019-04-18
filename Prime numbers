@@ -1,0 +1,47 @@
+//Algorithm Prime number between 1 to 100
+Input:
+N=1
+counter
+Remainder 
+Process:
+IF (N<2)
+Print “number is not prime”
+number++
+Process again
+IF (N==2)
+	Print “number is prime”
+	Number++
+IF (number>2)
+	For (counter=2;  counter<N; counter++){
+		Remainder = N % counter
+IF(Remainder ==0)
+	Print “number is not prime”
+			N++
+			Process again
+	}
+	IF(Remainder is not 0)
+		Print “number is prime”
+
+// Second Algorithm
+Input:
+N=1
+divisor=2
+Remainder 
+Process:
+IF (N<2)
+Print “number is not prime”
+number++
+Process again
+IF (N==2)
+	Print “number is prime”
+	Number++
+IF (number>2) 
+	remainder = number % divisor
+If (remainder = 0 )
+	It is not prime number, number +=1, divisor = 2, process again 
+Else 
+	divisor +=1
+	if ( number = divisor)
+		print “number is prime”, number +=1, divisor = 2, 	process again
+	else
+		process again
