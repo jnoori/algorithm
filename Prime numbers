@@ -14,25 +14,27 @@ IF (N==2)
 IF (number>2)
 	For (counter=2;  counter<N; counter++){
 		Remainder = N % counter
-IF(Remainder ==0)
-	Print “number is not prime”
+		IF(Remainder ==0)
+			Print “number is not prime”
 			N++
 			Process again
 	}
 	IF(Remainder is not 0)
 		Print “number is prime”
+		N++
+		process again
 
 // Second Algorithm
 Input:
-N=1
+number=1
 divisor=2
 Remainder 
 Process:
-IF (N<2)
+IF (number<2)
 Print “number is not prime”
 number++
 Process again
-IF (N==2)
+IF (number==2)
 	Print “number is prime”
 	Number++
 IF (number>2) 
