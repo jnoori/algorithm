@@ -1,0 +1,18 @@
+//	Create an algorithm that find the smallest coefficient of 7 where the remainder of its division to 2, 3, 4, 5, and 6 is 1.
+Input: 
+Number =7
+divisor = 2;
+counter=2;
+Process:
+If (number % devisor ==1 And devisor <=6){
+		devisor++ 
+		Do the process again
+}
+If(devisor == 7){
+Print “the” + number+ “ is the smallest coefficient of 7”
+} Else{
+	devisor=2;
+	number = 7*counter;
+	counter++;
+	Do the process again
+}
