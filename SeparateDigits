@@ -1,0 +1,12 @@
+Input:
+VAR number;
+VAR reverse = 0;
+VAR lastDigit;
+Process:
+While (number > 0){
+	lastDigit = number % 10;
+	reverse = (reverse * 10) + lastDigit;
+	number/=10
+}
+Output:
+Print reverse
