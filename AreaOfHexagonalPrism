@@ -1,0 +1,8 @@
+Input:
+h // is height
+a // is base edge
+area
+Process:
+Area= 6*a*h + 3*sqrt(3) * a * a
+Output:
+Print “the total area is ” + area
