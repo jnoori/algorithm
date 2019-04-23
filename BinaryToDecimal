@@ -1,0 +1,14 @@
+Input:
+binary
+lastDigit
+decimal=0
+counter=0
+Process:
+While (binary > 0){
+	lastDigit=binary % 10;
+	decimal = decimal + lastDigit * 2^counter
+	counter++;
+	binary= binary/10
+}
+Output:
+Print decimal
