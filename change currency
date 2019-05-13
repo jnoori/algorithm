@@ -1,0 +1,67 @@
+var userCountry= prompt("Please enter your country name");
+switch (userCountry){
+	case japan:
+		document.location.href = ../index-japan;
+		break;
+	case brazi:
+		document.location.href = ../index-brazi;
+		break;
+	case iran:
+		document.location.href = ../index-iran;
+		break;
+}
+document.location.href = ;
+function currencyExchange(){
+	let iranRate =0.0000319966;
+	let usRate=1.34716;
+	let= euroRate=1.51323;
+	let= poundRate=1.74526;
+	let= AUDRate=0.935720;
+	let= AEDRate=0.366811;
+	let= BRLRate=0.338338;
+	let= JPYRate=0.0123427;
+	let= CHFRate=1.33845;
+	let= CNYRate=0.195847;
+	let cad=0;
+	let userInput= document.getElementById("amount").value;
+	let currency = document.getElementById("currency").value;
+	var regex=/^[0-9]+$/;
+	if (userInput != null && userInput.match(regex) && userInput>=0){
+		switch (currency){
+			case "iran":
+				cad= userInput*iranRate;
+				break;
+			case "usa":
+				cad= userInput*usRate;
+				break;
+			case "europe":
+				cad= userInput*euroRate;
+				break;
+			case "britain":
+				cad= userInput*poundRate;
+				break;
+			case "australia":
+				cad= userInput*AUDRate;
+				break;
+			case "emirate":
+				cad= userInput*AEDRate;
+				break;
+			case "brazil":
+				cad= userInput*BRLRate;
+				break;
+				case "japan":
+					cad= userInput*JPYRate;
+					break;
+			case "china":
+				cad= userInput*CNYRate;
+				break;
+			case "swiss":
+				cad= userInput*CHFRate;
+				break;
+		}
+	}
+}
+
+
+
+
